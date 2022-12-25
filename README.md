@@ -1,6 +1,6 @@
 I found theses scripts and instructions at [swizzin hosted docs](https://docs.swizzin.net/guides/d2r/). I've put this here for my reference. As-is the torrent data is not moved to rtorrents download directory.
 
-I also found this after I already found and installed [pyrocore](https://github.com/pyroscope/pyrocore). From what I remember, line 63 of the [update-to-head.sh](https://github.com/pyroscope/pyrocore/blob/master/update-to-head.sh) caused a hang and then timed out. I can't currently find my notes on how I fixed it.
+I also found this after I already found and installed [pyrocore](https://github.com/pyroscope/pyrocore). From what I remember, line 63 of the [update-to-head.sh](https://github.com/pyroscope/pyrocore/blob/master/update-to-head.sh) caused a hang and then timed out. I can't currently find my notes on how I fixed it. **Update:** Change `git://` to `https://` on line 63.
 
 # Export Deluge torrents to rTorrent
 
